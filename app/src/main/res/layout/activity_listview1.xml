@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background ="@color/graylight"
+    android:orientation="vertical"
+    >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:text="Quay lại"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#757575"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/th1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ĐẠI TÁ ĐINH VĂN NƠI"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="21sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/dvn" />
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:paddingLeft="25dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Họ Tên :"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/th8"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="ĐINH VĂN NƠI"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:paddingLeft="25dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Quân Hàm :  "
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/th9"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Đại Tá"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:paddingLeft="25dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nơi Công Tác :"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/th11"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Tỉnh Quảng Ninh"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:paddingLeft="25dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/th12"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quốc Gia Số Sao Tín Nhiệm : "
+            android:textColor="#000"
+            />
+            <TextView
+                android:id="@+id/th13"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 5 sao "
+                android:textColor="#000"
+                />
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
